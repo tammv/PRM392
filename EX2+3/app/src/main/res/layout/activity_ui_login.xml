@@ -56,23 +56,29 @@
         android:layout_margin="20dp"/>
 
     <TextView
+        android:id="@+id/forgotpass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/forgotpass"
         android:layout_below="@id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
         android:text="@string/forgot_password"
         android:textColor="@color/white"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/others"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="23dp"
         android:layout_above="@id/socialicon"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="258dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="68dp"
         android:text="@string/or_sign_in_with"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
