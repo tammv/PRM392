@@ -40,6 +40,7 @@
             app:layout_constraintTop_toBottomOf="@+id/edt1" />
 
         <Button
+            style="@style/Buttoncalc"
             android:id="@+id/btnadd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -49,10 +50,14 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.275"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+
+            />
 
 
         <Button
+            style="@style/Buttoncalc"
+
             android:id="@+id/btnsub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -65,18 +70,21 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            style="@style/Buttoncalc"
+
             android:id="@+id/btnmol"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="420dp"
             android:onClick="onMol"
-            android:text="MOL"
+            android:text="MUL"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.275"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
+            style="@style/Buttoncalc"
             android:id="@+id/btndiv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
