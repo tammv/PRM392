@@ -31,19 +31,13 @@ public class MainActivity extends AppCompatActivity {
                     systemBars.right, systemBars.bottom);
             return insets;
         });
-        editTextName = (EditText)
-                findViewById(R.id.editTextName);
+        editTextName = (EditText) findViewById(R.id.editTextName);
         btnClickMe = (Button) findViewById(R.id.buttonClickMe);
         btnDial = (Button) findViewById(R.id.buttonDial);
-
-
         btnURL = (Button) findViewById(R.id.buttonURL);
         editTextURL = (EditText) findViewById(R.id.editTextURL);
 
-        //Explicit Intent 
-        //Input Your name, click button CLICK ME -> open
 
-//        MainActivity2, display Hello + name
         btnClickMe.setOnClickListener(new View.OnClickListener()
         {
             @Override

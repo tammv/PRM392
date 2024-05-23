@@ -24,7 +24,16 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         Log.i("MainActivity", "State: Started");
     }
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Log.i("MainActivity", "State: Resumed");
+    }
+    @Override
+    protected void onPause() {
+        super.onPause();
+        Log.i("MainActivity", "State: Paused");
+    }
     @Override
     protected void onStop() {
         super.onStop();
@@ -37,15 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("MainActivity", "State: Destroyed");
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.i("MainActivity", "State: Paused");
-    }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.i("MainActivity", "State: Resumed");
-    }
+
+
 }
