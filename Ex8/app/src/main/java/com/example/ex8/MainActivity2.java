@@ -9,7 +9,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 public class MainActivity2 extends AppCompatActivity {
     private TextView textViewId;
-    private TextView textViewName;
+    private TextView textViewName;o
     private TextView textViewDescription;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
