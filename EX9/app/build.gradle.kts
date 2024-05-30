@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
+//    id 'com.github.ben-manes.versions' version '0.39.0'
 }
 
 android {
@@ -32,8 +33,8 @@ android {
 }
 
 dependencies {
-//    implementation ("androidx.appcompat:appcompat:1.3.0')
-    implementation ("com.squareup.picasso:picasso:2.71828")
+    implementation ("androidx.appcompat:appcompat:1.2.0")
+    implementation("com.squareup.picasso:picasso:2.71828")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
