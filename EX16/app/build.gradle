@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.ex14'
+    namespace 'com.example.ex16'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.ex14"
+        applicationId "com.example.ex16"
         minSdk 33
         targetSdk 34
         versionCode 1
@@ -30,10 +30,10 @@ android {
 
 dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:convertergson:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.cardview:cardview:1.0.0'
-    implementation'com.google.android.material:material:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
     implementation libs.appcompat
     implementation libs.material
     implementation libs.activity
