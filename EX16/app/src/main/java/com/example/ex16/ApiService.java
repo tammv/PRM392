@@ -1,5 +1,7 @@
 package com.example.ex16;
 
+import com.example.ex16.Post;
+
 import java.util.List;
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -13,9 +15,8 @@ public interface ApiService {
     Call<List<Post>> getPosts();
     @POST("posts")
     Call<Post> createPost(@Body Post post);
-
     @PUT("posts/{id}")
     Call<Post> updatePost(@Path("id") int id, @Body Post post);
     @DELETE("posts/{id}")
     Call<Void> deletePost(@Path("id") int id);
-} 
+}

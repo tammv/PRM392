@@ -1,7 +1,10 @@
 package com.example.ex16;
 
+import com.example.ex16.ApiService;
+
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
+
 public class ApiClient {
     private static final String BASE_URL = "https://jsonplaceholder.typicode.com/";
     private static Retrofit retrofit;
@@ -17,4 +20,4 @@ public class ApiClient {
     public static ApiService getApiService() {
         return getRetrofitInstance().create(ApiService.class);
     }
-} 
+}

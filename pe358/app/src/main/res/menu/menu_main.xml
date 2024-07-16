@@ -1,0 +1,9 @@
+<!-- res/menu/menu_main.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/sqlite"
+        android:title="SQLite" />
+    <item
+        android:id="@+id/api"
+        android:title="API" />
+</menu>

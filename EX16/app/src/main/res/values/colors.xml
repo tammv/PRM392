@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparency">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_gray">#F7F8FC</color>
+    <color name="black">#000000</color>
+    <color name="orange">#F79009</color>
+    <color name="darkGray">#616161</color>
+    <color name="emptyColor">#26000000</color>
+    <color name="overlayColor">#8C000000</color>
+    <color name="ultralight_gray_130">#F7F8FC</color>
+    <color name="textLayoutColor">#82000000</color>
+    <color name="rippleColor">#70FFFFFF</color>
+    <color name="iap_selected">#1290FF</color>
+    <color name="dot_indicator_selected">#005ABE</color>
+    <color name="dot_indicator_normal">#33005ABE</color>
+    <color name="close_button_iap">#BDBDBD</color>
+    <color name="color_background">#18181B</color>
+    <color name="selectedColor">#2E90FA</color>
+    <color name="normalColor">#6693C6</color>
+    <color name="cyan">#00FFFF</color>
+
 </resources>

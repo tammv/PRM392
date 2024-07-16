@@ -1,21 +1,24 @@
 package com.example.ex16;
 
-import android.os.Bundle;
 import android.content.Intent;
-import android.view.View;
+import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+import androidx.room.Room;
+
+import com.example.ex16.Post;
+import com.example.ex16.PostDAO;
+import com.example.ex16.PostDatabase;
+import com.example.ex16.R;
 
 public class AddPostActivity extends AppCompatActivity {
+
     private EditText etTitle, etBody;
     private Button btnSave;
-    private ApiService apiService;
-    private Integer postId = null;
+    private PostDAO postDao;
+    private int postId = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,74 +27,37 @@ public class AddPostActivity extends AppCompatActivity {
 
         etTitle = findViewById(R.id.etTitle);
         etBody = findViewById(R.id.etBody);
-        btnSave = findViewById(R. id.btnSave);
+        btnSave = findViewById(R.id.btnSave);
 
-        apiService = ApiClient.getApiService();
+        PostDatabase db = Room.databaseBuilder(getApplicationContext(), PostDatabase.class, "post-db").allowMainThreadQueries().build();
+        postDao = db.postDao();
 
         Intent intent = getIntent();
-        if (intent.hasExtra("postId")) {
-            postId = intent.getIntExtra("postId", 0);
-            etTitle.setText(intent.getStringExtra("title"));
-            etBody.setText(intent.getStringExtra("body"));
+        if (intent.hasExtra("post_id")) {
+            postId = intent.getIntExtra("post_id", -1);
+            Post post = postDao.getPostById(postId);
+            etTitle.setText(post.getTitle());
+            etBody.setText(post.getBody());
         }
 
-        btnSave.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                savePost();
-            }
-        });
-    }
+        btnSave.setOnClickListener(view -> {
+            String title = etTitle.getText().toString().trim();
+            String body = etBody.getText().toString().trim();
 
-    private void savePost() {
-        String title = etTitle.getText().toString();
-        String body = etBody.getText().toString();
-
-        if (title.isEmpty() || body.isEmpty()) {
-            Toast.makeText(AddPostActivity.this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-        if (postId != null && postId.intValue() > 0) {
-            Post post = new Post(postId, title, body);
-            updatePost(post);
-        } else {
-            Post post = new Post(0, title, body);
-            createPost(post);
-        }
-    }
-
-
-    private void createPost(Post post) {
-        apiService.createPost(post).enqueue(new Callback<Post>() {
-            @Override
-            public void onResponse(Call<Post> call, Response<Post> response) {
-                if (response.isSuccessful()) {
-                    Toast.makeText(AddPostActivity.this, "Post created successfully", Toast.LENGTH_SHORT).show();
-                    finish();
+            if (!title.isEmpty() && !body.isEmpty()) {
+                if (postId == -1) {
+                    Post post = new Post(title, body);
+                    postDao.insert(post);
+                    Toast.makeText(AddPostActivity.this, "Post added", Toast.LENGTH_SHORT).show();
+                } else {
+                    Post post = new Post(postId, title, body);
+                    postDao.update(post);
+                    Toast.makeText(AddPostActivity.this, "Post updated", Toast.LENGTH_SHORT).show();
                 }
-            }
-
-            @Override
-            public void onFailure(Call<Post> call, Throwable t) {
-                Toast.makeText(AddPostActivity.this, "Failed to create post", Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
-
-    private void updatePost(Post post) {
-        apiService.updatePost(postId, post).enqueue(new Callback<Post>() {
-            @Override
-            public void onResponse(Call<Post> call, Response<Post> response) {
-                if (response.isSuccessful()) {
-                    Toast.makeText(AddPostActivity.this, "Post updated successfully", Toast.LENGTH_SHORT).show();
-                    finish();
-                }
-            }
-
-            @Override
-            public void onFailure(Call<Post> call, Throwable t) {
-                Toast.makeText(AddPostActivity.this, "Failed to update post", Toast.LENGTH_SHORT).show();
+                setResult(RESULT_OK);
+                finish();
+            } else {
+                Toast.makeText(AddPostActivity.this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
             }
         });
     }

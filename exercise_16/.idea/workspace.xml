@@ -26,7 +26,104 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0e4a811-87c5-4f8c-8673-0221de3c1454" name="Changes" comment="" />
+    <list default="true" id="c0e4a811-87c5-4f8c-8673-0221de3c1454" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/BlueToothReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/PostDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/PostDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/WifiReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EX16/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EX16/app/src/main/res/menu/optionmenu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/app/src/main/java/com/example/practice/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/app/src/main/java/com/example/practice/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/app/src/main/java/com/example/practice/CourseDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/app/src/main/java/com/example/practice/CourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/app/src/main/java/com/example/practice/CourseViewModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/app/src/main/java/com/example/practice/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/androidTest/java/com/example/ex16/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/java/com/example/ex16/AddPostActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/java/com/example/ex16/ApiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/java/com/example/ex16/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/java/com/example/ex16/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/java/com/example/ex16/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/java/com/example/ex16/PostAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/layout/activity_add_post.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/layout/post_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/values/style.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/app/src/test/java/com/example/ex16/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../praaa/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/AddPostActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/AddPostActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/ApiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/PostAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/java/com/example/ex16/PostAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/res/layout/activity_add_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/res/layout/activity_add_post.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/res/layout/post_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/res/layout/post_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX16/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EX16/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX20/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EX20/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EX9/app/src/main/java/com/example/ex9/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../EX9/app/src/main/java/com/example/ex9/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8/app/src/main/java/com/example/ex8/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8/app/src/main/java/com/example/ex8/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ex8/app/src/main/java/com/example/ex8/MainActivity2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ex8/app/src/main/java/com/example/ex8/MainActivity2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,11 +132,23 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=a4a62086)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\katok\.android\avd\Pixel_8_API_34.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,24 +166,28 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2hoRXRkXj7tIx2RqukjGZQh45B0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CODE/PRM392/exercise_16&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Android App.app.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/CODE/PRM392/exercise_16"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="android.template.-442260414">
       <recent name="com.example.exercise_16" />
@@ -144,7 +257,9 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -157,5 +272,8 @@
       <updated>1718258482668</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
